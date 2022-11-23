@@ -1,5 +1,5 @@
 export class HnhItem extends Item {
-    getCSData() {
+    getHnhData() {
         return this.system;
     }
 

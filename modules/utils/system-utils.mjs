@@ -1,11 +1,11 @@
 /**
  * class created by the Cyberpunk Red Core system development team
  */
-import LOGGER from "./logger.js";
+import Logger from "./logger.mjs";
 
 export default class SystemUtils {
     static async displayMessage(msgType, msg) {
-        LOGGER.trace("DisplayMessage | CSSystemUtils | Called.");
+        Logger.trace("DisplayMessage | CSSystemUtils | Called.");
         const localizedMessage = game.i18n.localize(msg);
         switch (msgType) {
             case "warn":

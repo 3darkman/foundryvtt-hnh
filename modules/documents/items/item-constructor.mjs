@@ -1,5 +1,5 @@
-import factory from "../utils/factory.js";
-import {HnhManifestationItem} from "./types/hnh-manifestation-item.js";
+import factory from "../../utils/factory.mjs";
+import {HnhManifestationItem} from "./hnh-manifestation-item.mjs";
 
 const itemTypes = {};
 itemTypes.manifestation = HnhManifestationItem;

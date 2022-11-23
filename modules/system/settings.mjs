@@ -1,6 +1,6 @@
 /* global game */
-import LOGGER from "../utils/logger.js";
-import {HnhConstants} from "./hnh-constants.js";
+import Logger from "../utils/logger.mjs";
+import {HnhConstants} from "./hnh-constants.mjs";
 
 /**
  * This file defines user settings for the system module.
@@ -14,7 +14,7 @@ const registerSystemSettings = () => {
         type: Boolean,
         default: false,
         onChange: (value) => {
-            LOGGER.log(`Changed ${HnhConstants.Settings.DEBUG_LOGS} to ${value}`);
+            Logger.log(`Changed ${HnhConstants.Settings.DEBUG_LOGS} to ${value}`);
         },
     });
 
@@ -26,7 +26,7 @@ const registerSystemSettings = () => {
         type: Boolean,
         default: false,
         onChange: (value) => {
-            LOGGER.log(`Changed ${HnhConstants.Settings.TRACE_LOGS} to ${value}`);
+            Logger.log(`Changed ${HnhConstants.Settings.TRACE_LOGS} to ${value}`);
         },
     });
 
@@ -36,7 +36,7 @@ const registerSystemSettings = () => {
         config: false,
         type: String,
         onChange: (value) => {
-            LOGGER.log(`Changed ${HnhConstants.Settings.CURRENT_VERSION} to ${value}`);
+            Logger.log(`Changed ${HnhConstants.Settings.CURRENT_VERSION} to ${value}`);
         },
     });
 };

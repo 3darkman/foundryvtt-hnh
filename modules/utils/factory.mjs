@@ -1,4 +1,4 @@
-import SystemUtils from "./system-utils.js";
+import SystemUtils from "./system-utils.mjs";
 
 export default function factory(entities, baseClass) {
     return new Proxy(baseClass, {

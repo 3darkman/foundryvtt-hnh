@@ -1,4 +1,4 @@
-import {HnhConstants} from "../modules/system/hnh-constants.js";
+import {HnhConstants} from "../modules/system/hnh-constants.mjs";
 
 export async function migrateData() {
     if (!game.user?.isGM) {

@@ -3,6 +3,7 @@
   "title": "Heroes & Hardships",
   "description": "",
   "version": "0.1.0",
+  "name": "",
   "languages": [
     {
       "lang": "en"
@@ -15,6 +16,10 @@
     }
   ],
   "esmodules": [
-    "module/system/config.js"
-  ]
+    "module/system/config.mjs"
+  ],
+  "compatibility": {
+    "minimum": 10,
+    "verified": "10"
+  }
 }

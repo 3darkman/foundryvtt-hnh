@@ -1,6 +1,6 @@
-import {HnhConstants} from "../system/hnh-constants.js";
+import {HnhConstants} from "../system/hnh-constants.mjs";
 
-export default class LOGGER {
+export default class Logger {
     static log(msg) {
         console.log(`CS LOG | ${msg}`);
     }

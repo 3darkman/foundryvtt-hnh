@@ -1,0 +1,38 @@
+{
+  "Actor": {},
+  "Item": {
+    "types": ["manifestation"],
+    "manifestation": {
+      "description": "",
+      "school": "",
+      "type": "",
+      "effects": {
+        "potency": {
+          "isValid": false,
+          "currentLevel": 1,
+          "currentBaseLevel": 1,
+          "levels": []
+        },
+        "targets": {
+          "isValid": false,
+          "currentLevel": 1,
+          "currentBaseLevel": 1,
+          "levels": []
+        },
+        "duration": {
+          "isValid": false,
+          "currentLevel": 1,
+          "currentBaseLevel": 1,
+          "levels": []
+        },
+        "range": {
+          "isValid": false,
+          "currentLevel": 1,
+          "currentBaseLevel": 1,
+          "levels": []
+        }
+      },
+      "activeResistance": ""
+    }
+  }
+}

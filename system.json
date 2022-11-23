@@ -1,0 +1,20 @@
+{
+  "id": "hnh",
+  "title": "Heroes & Hardships",
+  "description": "",
+  "version": "0.1.0",
+  "languages": [
+    {
+      "lang": "en"
+    }
+  ],
+  "authors": [
+    {
+      "name": "Kirlian '3darkman' Silvestre",
+      "flags": {}
+    }
+  ],
+  "esmodules": [
+    "module/system/config.js"
+  ]
+}

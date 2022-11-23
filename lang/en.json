@@ -1,0 +1,7 @@
+{
+  "HNH": {
+    "messages": {
+      "unsupportedEntityError": "entity not supported by the factory."
+    }
+  }
+}
